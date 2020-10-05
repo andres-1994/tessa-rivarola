@@ -5,18 +5,18 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-body{
+/*body{
 	background-image: url(img/imagenfondo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-}
+}*/
 
 header{
 	margin-top: 5px!important;
 	height: 55px;
-	background: blue;
+	background: black;
 	color: #fff;
 	display: flex;
 	justify-content: flex-end;
@@ -28,12 +28,13 @@ header label{
 	display: none;
 }
 
+
 #btn-menu{
 	display: none;
 }
 
 .menu ul{
-	background: blue;
+	background: black;
 	display: flex;
 	list-style: none;
 }
@@ -54,7 +55,7 @@ header label{
 }
 
 .menu a:hover{
-	background: rgba(0,0,0,0.3);
+	background: rgba(255,255,255,.3);
 }
 
 .menu a span {
@@ -90,7 +91,7 @@ header label{
 }
 
 hr{
-	background: blue;
+	background: black;
 }
 
 .imagen2{
@@ -118,10 +119,14 @@ video{
 	color: red;
 }
 
+.fa-envelope{
+	color: skyblue;
+}
+
 .button-up{
 	width: 50px;
 	height: 50px;
-	background: blue;
+	background: black;
 	color: white;
 	cursor: pointer;
 	border-radius: 50%;
@@ -184,5 +189,12 @@ video{
 
 	.fila{
 		margin-left: 15px !important;
+	}
+
+	.button-up{
+		right: 5px;
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
 	}
 }
