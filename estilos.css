@@ -146,17 +146,26 @@ video{
 	transform: scale(1.1);
 }
 
-.links li a{
-	text-align: justify;
+.links li{
+	
+	text-align: center;
 }
 
 
 @media (max-width: 768px) {
+
+	body{
+		margin: 10px;
+	}
 	
 	header label{
 		display: block;
 		display: flex;
 		align-items: center;
+	}
+
+	iframe{
+		width: 100%;
 	}
 
 	.menu{
