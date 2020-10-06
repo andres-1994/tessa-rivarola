@@ -154,9 +154,6 @@ video{
 
 @media (max-width: 768px) {
 
-	body{
-		margin-left: 10px;
-	}
 	
 	header label{
 		display: block;
