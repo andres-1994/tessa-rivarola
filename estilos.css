@@ -155,7 +155,7 @@ video{
 @media (max-width: 768px) {
 
 	body{
-		margin: 10px;
+		margin-left: 10px;
 	}
 	
 	header label{
@@ -165,7 +165,11 @@ video{
 	}
 
 	iframe{
-		width: 100%;
+		width: 400px;
+	}
+
+	video{
+		width: 400px;
 	}
 
 	.menu{
