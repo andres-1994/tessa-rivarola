@@ -146,6 +146,10 @@ video{
 	transform: scale(1.1);
 }
 
+.links li a{
+	text-align: justify;
+}
+
 
 @media (max-width: 768px) {
 	
