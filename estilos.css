@@ -144,7 +144,7 @@ video{
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 	header label{
 		display: block;
@@ -152,12 +152,8 @@ video{
 		align-items: center;
 	}
 
-	iframe{
-		width: 350px;
-	}
-
 	video{
-		width: 350px;
+		width: 100%;
 	}
 
 	.menu{
