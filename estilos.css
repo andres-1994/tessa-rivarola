@@ -20,6 +20,15 @@ header label{
 	display: none;
 }
 
+video{
+	width: 60%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+hr{
+	background: black;
+}
 
 #btn-menu{
 	display: none;
@@ -64,12 +73,10 @@ header label{
 }
 
 .fila .img{
-	width: 80%;
-	border-radius: 10px!important;
+	width: 70%;
 }
 
 .fila p{
-	text-align: center;
 	line-height: 30px;
 }
 
@@ -82,10 +89,6 @@ header label{
 	line-height: 30px;
 }
 
-hr{
-	background: black;
-}
-
 .imagen2{
 	cursor: pointer;
 	height: 14px;
@@ -95,12 +98,6 @@ hr{
 .img4{
 	width: 299px;
 	height: 287px;
-}
-
-video{
-	width: 60%;
-	margin: auto;
-	padding-top: 15px;
 }
 
 .fa-instagram{
@@ -153,7 +150,7 @@ video{
 	}
 
 	video{
-		width: 100%;
+		width: 260px;
 	}
 
 	.menu{
@@ -188,14 +185,14 @@ video{
 		background: rgba(0,0,0,0.4);
 	}
 
-	.fila{
-		margin-left: 15px !important;
-	}
-
 	.button-up{
 		right: 5px;
 		width: 35px;
 		height: 35px;
 		font-size: 15px;
+	}
+
+	.footer-copyright a{
+		font-size: 11px;
 	}
 }
