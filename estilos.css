@@ -141,7 +141,7 @@ hr{
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 720px) {
 
 	header label{
 		display: block;
